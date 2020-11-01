@@ -1,0 +1,3 @@
+library(readr)
+urlfile='https://raw.githubusercontent.com/biqiongyu/Battle-of-Neighborhoods/master/ny_neighborhoods.csv'
+mydata<-read_csv(url(urlfile))
